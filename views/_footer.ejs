@@ -1,0 +1,20 @@
+<footer id="layout-footer">
+    
+    <div id="nav-footer-list">
+        <nav class="footer-nav">
+            <p>
+                <a href="/">Home</a> &nbsp;&nbsp;
+                <% if (locals.user){ %>
+                            <a href="/users/profile/<%= user.id %>">
+                                Profile
+                            </a>
+                <% } %>
+            </p>
+        </nav>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;
+    <div>
+        <p>
+            &#169; Connectopia. Created by Anurag
+        </p>
+    </div>
+</footer>

@@ -1,0 +1,20 @@
+#home-container {
+  display: flex; }
+  #home-container #feed-posts {
+    width: 70%;
+    padding: 10px;
+    border: 5px solid goldenrod;
+    border-radius: 20px; }
+    #home-container #feed-posts textarea {
+      border-radius: 10px;
+      background-color: #c8c8c8; }
+    #home-container #feed-posts input {
+      border-radius: 5px;
+      background-color: goldenrod; }
+  #home-container #user-friends {
+    width: 30%;
+    padding: 10px;
+    border-left: 1px solid lightgrey;
+    height: 100%;
+    border: 5px solid goldenrod;
+    border-radius: 20px; }

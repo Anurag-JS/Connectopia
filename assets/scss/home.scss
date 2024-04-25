@@ -1,0 +1,28 @@
+#home-container{
+    display: flex;
+    
+    #feed-posts{
+        width: 70%;
+        padding: 10px;
+        border: 5px solid goldenrod;
+        border-radius: 20px;
+
+        textarea{
+            border-radius: 10px;
+            background-color: rgb(200, 200, 200);
+        }
+        input{
+            border-radius: 5px;
+            background-color: goldenrod;
+        }
+    }
+
+    #user-friends{
+        width: 30%;
+        padding: 10px;
+        border-left: 1px solid lightgrey;
+        height: 100%;
+        border: 5px solid goldenrod;
+        border-radius: 20px;
+    }
+}

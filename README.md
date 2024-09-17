@@ -37,3 +37,17 @@ Connectopia is a social media application where users can register, log in, make
 - **Multer:** Multer is used for handling file uploads, allowing users to upload profile pictures and post images.
 
 - **Google OAuth:** Google OAuth is implemented for registration and login using Google accounts.
+
+
+## Installation and Run
+To run this project locally, follow these steps:
+
+Clone the Repository Download the project files to your local machine using Git or directly from the source.
+
+Navigate to the Project Directory Open a terminal and use the cd command to navigate to the root directory of the project.
+
+Install Dependencies Run npm install in the terminal to automatically install all required packages and dependencies.
+
+Launch the Application Once the installation is complete, start the development server with the command npm start.
+
+View in Browser Open your web browser and go to http://localhost:8000/ to interact with the application.
